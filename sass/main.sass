@@ -1,0 +1,332 @@
+body
+	margin: 0
+	padding: 0
+	color: #fff
+header
+	background: url(../img/bg-header.png) no-repeat center
+	background-size: cover
+	min-height: 100vh
+	position: relative
+	border-bottom: 3px solid #4bcaff
+.nav
+	align-items:center
+	justify-content: between
+	padding: 30px	0 120px
+.nav-header
+	display: flex
+	&_menu	
+		list-style-type: none
+		display: flex
+		padding: 0
+	li
+		margin-right: 20px
+	a
+		color: #fff
+		text-transform: uppercase
+		text-decoration: none
+		font-size: 13px
+		font-weight: 400
+		font-family: 'Droid Sans', arial
+		&:hover
+			&::after
+				content: ''
+				width: 100%
+				display: block
+				color: #4bcaff
+				font-weight: 700
+				height: 1px
+			&::after 
+				content: ''
+				width: 100%
+				display: block
+				background-color: #4bcaff
+				transform: translateY(-62px)
+				
+				
+.slick-slider
+	&__img
+		position: absolute
+		left: -67px
+		top: -75.6px
+		max-width: 500px
+	&__content
+		h1
+			color: #fff
+			font-family: 'Lato'
+			font-size: 48px
+			font-weight: 300
+			text-shadow: 0 1px rgba(25, 22, 24, 0.36) 
+			span
+				font-weight: 700
+		p
+			font-family: 'Lato'
+			font-size: 18px
+			font-weight: 300
+	.button
+		color: #fff
+		font-family: 'Lato'
+		font-size: 15px
+		font-weight: 700
+		text-transform: uppercase
+		border: 2px #fff solid
+		outline: none
+		padding: 26px 51px 24px
+		border-radius: 6px
+		margin-right: 39px
+		background: transparent
+		&:hover
+			background-color: #4bcaff
+			box-shadow: 0 4px 0 #277697
+			border: none
+			margin-right: 43px
+	.os
+		margin-top: 69px
+		font-family: 'Lato'
+		font-size: 18px
+		font-weight: 300
+		span
+			display: inline-block
+			margin: 0 14px 0 8px 
+			width: 35px
+			height: 31px
+			text-align: center
+			border: 2px solid #030303
+			border-radius: 50%
+			background-color: #030303
+			&:hover
+				color: #4bcaff
+.header-title
+	h2
+		color: #414042
+		font-family: 'Lato-black'
+		font-size: 36px
+		text-align: center
+		font-weight: 400
+		margin-bottom: 10px
+		margin-top: 0
+		padding-top: 49px
+	p
+		color: #414042
+		font-family: 'Lat'
+		font-size: 20px
+		font-weight: 300
+		text-align: center
+		margin: 3px 0
+		padding-bottom: 45px
+		color: #414042						
+.item
+	text-align: center
+	background: url(../img/bg-item.png)
+	
+	h3
+		color: #414042
+		text-transform: uppercase
+		text-align: center
+		font-family: 'Lato'
+		font-weight: 700
+		font-size: 15px
+	p
+		font-family: 'Lato'
+		font-size: 13px
+		font-weight: 400
+		color: #838383
+  
+	span
+		display: inline-block
+		width: 75px
+		height: 75px
+		text-align: center
+		line-height: 75px
+		border-radius: 50%
+		border: 0 solid #000
+		color: #fff
+		background-color: #4bcaff
+		.fa
+			line-height: 75px
+			text-align: center	
+		&:hover
+			background-color: #414042
+
+.gallery-reid
+	text-align: center
+	p
+		font-family: 'Lato'
+		font-size: 1px
+		font-weight: 400
+		color: #838383
+	.gallery-block
+		display: inline-block
+		width: 260px
+		height: 200px
+		border-radius: 10px
+		border: 0 solid #000
+		background: url(../img/block.png)
+		position: relative
+		span
+			display: inline-block
+			position: absolute
+			bottom: 0
+			left: 0
+			text-transform: uppercase
+			color: #4bacff
+			background-color: rgba(#414042, 0.65)
+			width: 100%
+			padding: 15px 0
+			border-radius: 0 0 10px 10px
+			
+.package
+	text-align: center
+	max-width: 300px
+	min-height: 415px
+	border: 1px solid #dad7d7
+	background-color: #f9f9f9
+	margin-left: 35px
+	strong
+		color: #d7d7d7
+		font-family: 'Lato'
+		font-size: 17px
+		font-weight: 700
+		text-transform: uppercase
+		display: block
+		margin-top: 30px
+	span
+		display: inline-block
+		text-shadow: 0 1px 2px rgba(25, 22, 24, 0.3)
+		text-transform: uppercase
+		color: #fff
+		font-family: "Droid Sans"
+		font-size: 700px
+		font-size: 85px
+		background-color: #91c46b
+		width: 100%
+		margin-top: 27px
+	p
+		color: #d7d7d7
+		font-family: 'Lato'
+		font-size: 18px
+		font-weight: 700
+	button
+		color: #fff
+		font-family: 'Lato'
+		font-size: 15px
+		font-weight: 700
+		text-transform: uppercase
+		background-color: #91c46b
+		border: none
+		padding: 19px 47px
+		margin-top: 20px
+	&-professional
+		text-align: center
+		width: 370px
+		height: 455px
+		border: 1px solid #dad7d7
+		background-color: #f9f9f9
+		margin-top: -22px
+		strong
+			color: #4bcaff
+			font-family: 'Lato'
+			font-size: 17px
+			font-weight: 700
+			text-transform: uppercase
+			display: block
+			margin-top: 30px
+		span
+			display: inline-block
+			text-shadow: 0 1px 2px rgba(25, 22, 24, 0.3)
+			text-transform: uppercase
+			color: #ffffff
+			font-family: "Droid Sans"
+			font-size: 700px
+			font-size: 85px
+			background-color:  #4bcaff
+			width: 100%
+			margin-top: 27px
+		p
+			color: #4bcaff
+			font-family: 'Lato'
+			font-size: 18px
+			font-weight: 700
+			line-height: 40px
+		button
+			color: #fff
+			font-family: 'Lato'
+			font-size: 15px
+			font-weight: 700
+			text-transform: uppercase
+			background-color: #4bcaff
+			border: none
+			padding: 19px 47px
+			margin-top: 20px
+	&-advanced
+		text-align: center
+		max-width: 300px
+		min-height: 415px
+		border: 1px solid #dad7d7
+		background-color: #f9f9f9
+		margin-left: 35px
+		strong
+			color: #d7d7d7
+			font-family: 'Lato'
+			font-size: 17px
+			font-weight: 700
+			text-transform: uppercase
+			display: block
+			margin-top: 30px
+		span
+			display: inline-block
+			text-shadow: 0 1px 2px rgba(25, 22, 24, 0.3)
+			text-transform: uppercase
+			color: #fff
+			font-family: "Droid Sans"
+			font-size: 700px
+			font-size: 85px
+			background-color: #fd7c00
+			width: 100%
+			margin-top: 27px
+		p
+			color: #d7d7d7
+			font-family: 'Lato'
+			font-size: 18px
+			font-weight: 700
+		button
+			color: #fff
+			font-family: 'Lato'
+			font-size: 15px
+			font-weight: 700
+			text-transform: uppercase
+			background-color: #fd7c00
+			border: none
+			padding: 19px 47px
+			margin-top: 20px
+				
+@media(min-width: 320px) and (max-width: 766px)
+	.nav
+		padding: 30px 0 0
+		&-logo
+			text-align: center
+		&-header_menu
+			display: flex
+			flex-direction: column
+
+			a
+				padding-top: 10px
+				font-size: 5px
+				display: flex
+				&:hover
+					&::after
+						content: ''
+						width: 100%
+						display: none
+					&::after 
+						content: ''
+						display: none
+.slick-slider
+	&__img
+		display: none
+	
+
+@media( min-width: 1767px)
+	.slick-slider__img
+		display: inline-block
+
+	
