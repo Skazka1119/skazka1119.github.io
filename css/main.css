@@ -381,13 +381,50 @@ header {
     content: "";
     display: none;
   }
-}
-.slick-slider__img {
-  display: none;
-}
 
-@media( min-width: 1767px) {
+  .slick-slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .slick-slider h1 {
+    font-size: 33px;
+  }
+  .slick-slider p {
+    font-size: 13px;
+  }
   .slick-slider__img {
-    display: inline-block;
+    display: none;
+  }
+  .slick-slider .button {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+  .slick-slider .button:hover {
+    margin-right: 0;
+  }
+  .slick-slider .os {
+    margin-top: 35px;
+    text-align: center;
+  }
+  .slick-slider .os span {
+    margin: 10px 0;
+  }
+
+  .package {
+    margin: auto;
+  }
+  .package-professional {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .package-advanced {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
+@media( min-width: 767px) and (max-width: 920px) {
+  .slick-slider__img {
+    display: none;
   }
 }

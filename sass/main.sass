@@ -307,7 +307,6 @@ header
 		&-header_menu
 			display: flex
 			flex-direction: column
-
 			a
 				padding-top: 10px
 				font-size: 5px
@@ -320,13 +319,35 @@ header
 					&::after 
 						content: ''
 						display: none
-.slick-slider
-	&__img
-		display: none
-	
+	.slick-slider
+		display: flex
+		h1
+			font-size: 33px
+		p
+			font-size: 13px	
+		&__img
+			display: none
+		.button
+			margin-top: 20px
+			margin-right: 0
+			&:hover
+				margin-right: 0
+		.os
+			margin-top: 35px
+			text-align: center
+			span
+				margin: 10px 0
+	.package
+		margin: auto
+		&-professional
+			width: 100%
+			margin: 15px 0
+		&-advanced
+			margin: auto
+			margin-bottom: 10px				
 
-@media( min-width: 1767px)
+@media( min-width: 767px) and (max-width: 920px)
 	.slick-slider__img
-		display: inline-block
+		display: none
 
 	
