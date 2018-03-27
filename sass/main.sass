@@ -1,3 +1,20 @@
+
+.progress-container
+	width: 100%
+	height: 8px
+	background: #ccc
+	left: 0
+	right: 0
+	top: 0
+	position: fixed
+	z-index: 1
+
+
+.progress-bar
+	height: 8px
+	background: #4caf50
+	width: 0%
+
 body
 	margin: 0
 	padding: 0
@@ -27,7 +44,9 @@ header
 		font-size: 13px
 		font-weight: 400
 		font-family: 'Droid Sans', arial
+		transition: all .6s
 		&:hover
+			color: #4bcaff
 			&::after
 				content: ''
 				width: 100%
@@ -173,6 +192,10 @@ header
 			width: 100%
 			padding: 15px 0
 			border-radius: 0 0 10px 10px
+
+
+.price
+	padding-bottom: 70px
 			
 .package
 	text-align: center
@@ -298,7 +321,43 @@ header
 			border: none
 			padding: 19px 47px
 			margin-top: 20px
-				
+
+
+.Testimonials
+	background: url(../img/bg-item.png)
+	margin-bottom: 30px
+	p
+		color: #4bcaff
+		font-family: Lato
+		font-size: 14px
+		font-weight: 700
+		line-height: 18px
+		margin-top: 45px
+	span
+		display: block
+		color: #4bcaff
+		font-family: Lato
+		font-size: 14px
+		font-weight: 700
+		padding-top: 140px	
+	
+	.slide
+		display: flex
+		justify-content: center
+		&-sli
+			display: flex
+			justify-content: center
+			p
+				width: 35%
+
+			img
+				margin-left: 175px
+				padding-right: 25px
+			
+		
+	
+	
+						
 @media(min-width: 320px) and (max-width: 766px)
 	.nav
 		padding: 30px 0 0
@@ -344,7 +403,12 @@ header
 			margin: 15px 0
 		&-advanced
 			margin: auto
-			margin-bottom: 10px				
+			margin-bottom: 10px
+
+
+
+
+
 
 @media( min-width: 767px) and (max-width: 920px)
 	.slick-slider__img

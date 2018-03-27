@@ -1,3 +1,20 @@
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -41,6 +58,11 @@ header {
   font-size: 13px;
   font-weight: 400;
   font-family: "Droid Sans", arial;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.nav-header a:hover {
+  color: #4bcaff;
 }
 .nav-header a:hover::after {
   content: "";
@@ -209,6 +231,10 @@ header {
   border-radius: 0 0 10px 10px;
 }
 
+.price {
+  padding-bottom: 70px;
+}
+
 .package {
   text-align: center;
   max-width: 300px;
@@ -347,6 +373,50 @@ header {
   border: none;
   padding: 19px 47px;
   margin-top: 20px;
+}
+
+.Testimonials {
+  background: url(../img/bg-item.png);
+  margin-bottom: 30px;
+}
+.Testimonials p {
+  color: #4bcaff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 45px;
+}
+.Testimonials span {
+  display: block;
+  color: #4bcaff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 140px;
+}
+.Testimonials .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.Testimonials .slide-sli {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.Testimonials .slide-sli p {
+  width: 35%;
+}
+.Testimonials .slide-sli img {
+  margin-left: 175px;
+  padding-right: 25px;
 }
 
 @media(min-width: 320px) and (max-width: 766px) {
